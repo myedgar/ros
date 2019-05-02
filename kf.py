@@ -1,4 +1,5 @@
 # 说明： 卡尔曼滤波的python实现，具体公式参考《概率机器人》
+# 说明： ekf与kf不同在于对观测矩阵与状态转移矩阵利用泰勒展开进行线性化，替换成对应雅各比矩阵
 import numpy as np
 import matplotlib.pyplot as plt
 
